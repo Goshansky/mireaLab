@@ -1,6 +1,6 @@
 package lab6.number3;
 
-class Animal implements Nameable {
+public class Animal implements Nameable {
     private String species;
 
     public Animal(String species) {
