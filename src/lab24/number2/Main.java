@@ -14,5 +14,7 @@ public class Main {
         client.sit(victorianChairFactory.createChair());
         client.sit(multifunctionalChairFactory.createChair());
         client.sit(magicChairFactory.createChair());
+
+
     }
 }
