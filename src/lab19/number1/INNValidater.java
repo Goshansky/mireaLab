@@ -3,8 +3,8 @@ package lab19.number1;
 public class INNValidater {
     public static void main(String[] args) {
         try {
-            String fullName = "Иванов Иван Иванович"; // Замените на ФИО клиента
-            String inn = "1234567890"; // Замените на ИНН клиента
+            String fullName = "Иванов Иван Иванович";
+            String inn = "1234567890";
 
             if (isValidINN(inn)) {
                 System.out.println("ИНН " + inn + " действителен для клиента " + fullName);
